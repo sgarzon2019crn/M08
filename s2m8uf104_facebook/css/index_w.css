@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e9ebed;
+}
+
+#barra {
+  height: 43px;
+  background-color: #5066ae;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#Contenidor {
+  width: 852px;
+  height: 2000px;
+  background-color: #e9eaed;
+  margin: 0 auto;
+}
+#cap {
+  width: 852px;
+  height: 357px;
+  background-color: #ffffff;
+  background-image: url("../img/portada.jpg");
+  background-repeat: no-repeat;
+  background-size:852px 316px;
+  border: solid 1px #DDD;
+  border-radius: 2px;
+}
+
+#cap img {
+  width: 161px;
+  height: 161px;
+  position: relative;
+  top: 110px;
+  left: 20px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid white 4px;
+}
+
+#cap h2{
+  color: white;
+  position: relative;
+  top: 230px;
+  left: 200px;
+  font-family: sans-serif;
+}
+
+#cap #menu{
+  background-color: #e9ebed;
+  height: 41px;
+  width: 560px;
+  float: right;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 249px;
+}
+#menu li{
+  font-family: Lucida Grande;
+  height: 41px;
+  color: #5066ae;
+  background-color: #fff;
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 15px;
+  margin: 0 1px 0 0;
+  line-height: 41px;
+}
+ #principal {
+   margin-top: 12px;
+   width: 516px;
+   height: 800px;
+   border: solid 1px #DDD;
+   border-radius: 2px;
+   background-color: #eaebed;
+   float: right;
+
+ }
+
+ #side {
+   margin-top: 12px;
+   width: 323px;
+   background-color: #eaebed;
+   height: 1000px;
+   border: solid 1px #DDD;
+   border-radius: 2px;
+}
+
+#principal .Post{
+  width: 516px;
+  height: 300px;
+  background-color: white;
+  margin-bottom: 10px;
+}

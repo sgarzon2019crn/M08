@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #e9ebed;
+  font-family: 'Lucida Grande'; tahoma, Segoe UI, San Francisco, Roboto;
 }
 
 #barra {
@@ -11,6 +12,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 10000;
 }
 
 #Contenidor {
@@ -47,13 +49,12 @@ body {
   position: relative;
   top: 230px;
   left: 200px;
-  font-family: sans-serif;
 }
 
 #cap #menu{
   background-color: #e9ebed;
-  height: 41px;
-  width: 560px;
+  height: 39px;
+  width: 590px;
   float: right;
   margin: 0;
   padding: 0;
@@ -61,8 +62,8 @@ body {
   top: 249px;
 }
 #menu li{
-  font-family: Lucida Grande;
-  height: 41px;
+
+  height: 39px;
   color: #5066ae;
   background-color: #fff;
   display: inline-block;
@@ -91,9 +92,151 @@ body {
    border-radius: 2px;
 }
 
-#principal .Post{
-  width: 516px;
+.post{
+  width: 492px;
+  padding: 12px;
   height: 300px;
   background-color: white;
+}
+
+.info {
+  width: 299px;
+  padding: 12px;
+  height: 300px;
+  background-color: white;
+}
+
+.post, .info {
+  border: 1px solid #DDD;
+  border-radius: 2px;
   margin-bottom: 10px;
+}
+
+#pensando {
+  width: 492px;
+  height: 169px;
+  background-color: red;
+  margin-bottom: 10px;
+}
+
+
+#presentacion {
+  font-size: 12px;
+  width: 299px;
+  padding: 12px;
+  background-color: white;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+#presentacion p {
+  border-bottom: solid 1px #DDD;
+}
+
+.estudios, .domicilio, .ubicacion, .estado {
+  list-style-type: none;
+}
+.estudios {
+  list-style-image: url("../img/icn/icones_estudis.png");
+}
+
+.domicilio {
+  list-style-image: url("../img/icn/icones_domicili.png");
+}
+
+.ubicacion {
+  list-style-image: url("../img/icn/icones_ubicacio.png");
+}
+
+.estado {
+  list-style-image: url("../img/icn/icones_sentimental.png");
+}
+
+#fotos {
+  height: 153px;
+  background-color: orange;
+}
+
+.foto {
+  height: 95px;
+  width: 95px;
+  margin: 2px;
+  float: left;
+}
+
+#amistad {
+  height: 419px;
+  list-style-type: none;
+}
+
+#amistad ul{
+  list-style-type: none;
+  padding: 0;
+}
+#amistad a:link{
+  text-decoration: none;
+  color: white;
+}
+
+#mm{
+  background-image: url("https://mmunozp2019crn.github.io/M08/s2m8uf104_munoz/img/logo.jpg");
+  background-size: cover;
+}
+#lg{
+  background-image: url("https://lgarcia2019crn.github.io/M08/s2m8uf104_facebook/img/perfil.jpg");
+  background-size: cover;
+}
+#ag{
+  background-image: url("https://agarcia2019crn.github.io/M08/s2m8uf104_garciaa/img/perfil.jpg");
+  background-size: cover;
+}
+#np{
+  background-image: url("https://iprados2019crn.github.io/M08/s2m8uf104_iprados/img/fotoperfil.jpg");
+  background-size: cover;
+}
+#yr{
+  background-image: url("https://yromero2019crn.github.io/M08/UF1/s2m8uf104_facebook/img/perfil1.jpg");
+  background-size: cover;
+}
+#sp{
+  background-image: url("https://sperez2019crn.github.io/M08/s2m8uf104_sperez/img/fotoperfil.jpg");
+  background-size: cover;
+}
+#op{
+  background-image: url("https://oparicio2019crn.github.io/M08/UF1/s2m8uf104_oparicio/img/perfil.png");
+  background-size: cover;
+}
+#oc{
+  background-image: url("https://olopez2019crn.github.io/M08/s2m8uf0104_lopez/img/homero.png");
+  background-size: cover;
+}
+#ar{
+  background-image: url("https://mmunozp2019crn.github.io/M08/s2m8uf104_munoz/img/logo.jpg");
+  background-size: cover;
+}
+
+#sabias {
+  height: 192px;
+}
+#idiomas{
+  height: 56px;
+}
+
+#side h3 {
+  text-indent: 30px;
+  background-image: url("../img/lateral.png");
+  background-repeat: no-repeat;
+  background-position: 0 0px;
+  height: 24px;
+}
+
+#fotos h3 {
+  background-position: 0 -24px;
+}
+
+#amistad h3 {
+  background-position: 0 -48px;
+}
+
+#sabias h3 {
+  background-position: 0 -72px;
 }

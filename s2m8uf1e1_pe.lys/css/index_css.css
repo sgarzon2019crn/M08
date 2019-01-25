@@ -1,0 +1,182 @@
+body {
+  background-color: #222;
+  font-family: 'Helvetica';
+  color: #FFF;
+}
+
+img{
+  margin: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  float: left;
+}
+
+h2{
+  font-size: 22px;
+}
+
+h3{
+  margin: 0;
+  font-size: 14px;
+}
+
+#any {
+  font-size: 11px;
+  float: left;
+  align: right;
+}
+
+#cate{
+  font-size: 11px;
+  float: right;
+}
+
+#barra {
+  height: 50px;
+  background-color: #000;
+  opacity: .5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+}
+
+#barra ul li{
+  display: inline-block;
+  margin: 5px;
+  line-height: 40px;
+}
+
+#barra ul{
+  margin: 0;
+  padding: 0;
+}
+
+#barra ul li a:link{
+  color: #CCC;
+  text-decoration: none;
+  list-style-type: none;
+}
+#barra ul li a:visited{
+  color: #CCC;
+}
+
+#barra ul li a:hover{
+  color: #FFF;
+  text-decoration: underline 2px;
+}
+#s1{
+  margin-top: 70px;
+}
+.categoria{
+  color: #FFF;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.redes{
+  color: #FFF;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+.docus{
+  width: 175px;
+  border-radius: 5px;
+  margin: 10px;
+  float: left;
+  color: #FFF;
+}
+
+.docus a:hover{
+  opacity: .5;
+}
+
+.fdocus{
+  width: 175px;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+}
+.vistos{
+  width: 175px;
+  border-radius: 5px;
+  margin: 10px;
+  float: left;
+  color: #FFF;
+}
+
+.fdocusvistos{
+  width: 175px;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+  -webkit-filter: grayscale(100%);
+  -moz-fliter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+#s2{
+  clear: both;
+}
+
+.pelicules {
+  width: 175px;
+  border-radius: 5px;
+  margin: 10px;
+  float: left;
+  color: #FFF;
+}
+
+.fpelis{
+  width: 175px;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.pvistas{
+  width: 175px;
+  border-radius: 5px;
+  margin: 10px;
+  float: left;
+  color: #FFF;
+}
+
+.pvistas img{
+  width: 175px;
+  height: 260px;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.seriessgn{
+  width: 175px;
+  border-radius: 5px;
+  margin: 10px;
+  float: left;
+  color: #FFF;
+}
+
+.fseries{
+  width: 175px;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+.seriesvs{
+  width: 175px;
+  height: 260px;
+  background-color: #DDD;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,607 @@
+/*Version Escriptori*/
+
+@media only screen and (min-width: 960px) {
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e9ebed;
+  font-family: 'Lucida Grande'; tahoma, Segoe UI, San Francisco, Roboto;
+}
+
+#barra {
+  height: 43px;
+  background-color: #5066ae;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+}
+
+#Contenidor {
+  width: 852px;
+  height: 2000px;
+  background-color: #e9eaed;
+  margin: 0 auto;
+}
+#cap {
+  width: 852px;
+  height: 357px;
+  background-color: #FFF;
+  background-image: url("../img/portada.jpg");
+  background-repeat: no-repeat;
+  background-size:852px 316px;
+  border: solid 1px #DDD;
+  border-radius: 2px;
+}
+
+#cap img {
+  width: 161px;
+  height: 161px;
+  position: relative;
+  top: 110px;
+  left: 20px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid white 4px;
+}
+
+#cap h2{
+  color: white;
+  position: relative;
+  top: 230px;
+  left: 200px;
+}
+
+#cap #menu{
+  background-color: #e9ebed;
+  height: 39px;
+  width: 590px;
+  float: right;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 249px;
+}
+#menu li{
+
+  height: 39px;
+  color: #5066ae;
+  background-color: #FFF;
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 15px;
+  margin: 0 1px 0 0;
+  line-height: 41px;
+}
+ #principal {
+   margin-top: 12px;
+   width: 516px;
+   height: 800px;
+   border: solid 1px #DDD;
+   border-radius: 2px;
+   background-color: #eaebed;
+   float: right;
+
+ }
+
+ #side {
+   margin-top: 12px;
+   width: 323px;
+   background-color: #eaebed;
+   height: 1000px;
+   border: solid 1px #DDD;
+   border-radius: 2px;
+}
+
+.post{
+  width: 492px;
+  padding: 12px;
+  background-color: white;
+}
+.post ul{
+  background-color: red;
+}
+.post li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.post img{
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+.info {
+  width: 299px;
+  padding: 12px;
+  height: 300px;
+  background-color: white;
+}
+
+.post, .info {
+  border: 1px solid #DDD;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+#pensando {
+  width: 514px;
+  height: 169px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+#miniperfil{
+  position: absolute;
+  float: left;
+  padding-left: 4px;
+  margin-top: 24px;
+  z-index: 1000;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+#textpensando {
+  width: 470px;
+  height: 71px;
+  margin: 0;
+  padding: 0;
+  padding-left: 40px;
+  font-size: 14px;
+}
+#pensando ul{
+  background-color: #DDD;
+  height: 48px;
+  line-height: 50px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border-bottom: solid 1px #DDD;
+  border-top: solid 1px #DDD;
+}
+
+#arriba li{
+  border-right: solid 1px #FFF;
+}
+#pensando li{
+  font-size: 12px;
+  display: inline-block;
+}
+
+#btm ul{
+  padding: 0;
+  margin: 0;
+  p
+}
+#btm li{
+  margin: 0;
+  padding: 0;
+  width: 90px;
+  height: 30px;
+  text-align: center;
+  margin-right: 10px;
+  background-color: #FFF;
+  height: 30px;
+  border-radius: 20%;
+}
+
+.crear, .fyv, .directo, .importante {
+  list-style-type: none;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-position: 6px;
+}
+
+.crear {
+  background-image: url("../img/icn/icones_estudis.png");
+}
+.fyv {
+  background-image: url("../img/icn/icones_estudis.png");
+}
+.directo {
+  background-image: url("../img/icn/icones_estudis.png");
+}
+.importante {
+  background-image: url("../img/icn/icones_estudis.png");
+}
+
+#presentacion {
+  font-size: 12px;
+  width: 299px;
+  padding: 12px;
+  background-color: white;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+#presentacion p {
+  border-bottom: solid 1px #DDD;
+}
+
+.estudios, .domicilio, .ubicacion, .estado {
+  list-style-type: none;
+}
+.estudios {
+  list-style-image: url("../img/icn/icones_estudis.png");
+}
+
+.domicilio {
+  list-style-image: url("../img/icn/icones_domicili.png");
+}
+
+.ubicacion {
+  list-style-image: url("../img/icn/icones_ubicacio.png");
+}
+
+.estado {
+  list-style-image: url("../img/icn/icones_sentimental.png");
+}
+
+#fotos {
+  height: 153px;
+  background-color: orange;
+}
+
+.foto {
+  height: 95px;
+  width: 95px;
+  margin: 2px;
+  float: left;
+}
+
+#amistad {
+  height: 419px;
+  list-style-type: none;
+}
+
+#amistad ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+#amistad li{
+  color: white;
+  position: relative;
+  display: inline-block;
+
+}
+#amistad li a:link{
+  text-decoration: none;
+  display: inline-block;
+}
+
+#mm{
+  background-image: url("https://mmunozp2019crn.github.io/M08/s2m8uf104_munoz/img/logo.jpg");
+  background-size: cover;
+}
+#lg{
+  background-image: url("https://lgarcia2019crn.github.io/M08/s2m8uf104_facebook/img/perfil.jpg");
+  background-size: cover;
+}
+#ag{
+  background-image: url("https://agarcia2019crn.github.io/M08/s2m8uf104_garciaa/img/perfil.jpg");
+  background-size: cover;
+}
+#np{
+  background-image: url("https://iprados2019crn.github.io/M08/s2m8uf104_iprados/img/fotoperfil.jpg");
+  background-size: cover;
+}
+#yr{
+  background-image: url("https://yromero2019crn.github.io/M08/UF1/s2m8uf104_facebook/img/perfil1.jpg");
+  background-size: cover;
+}
+#sp{
+  background-image: url("https://sperez2019crn.github.io/M08/s2m8uf104_sperez/img/fotoperfil.jpg");
+  background-size: cover;
+}
+#op{
+  background-image: url("https://oparicio2019crn.github.io/M08/UF1/s2m8uf104_oparicio/img/perfil.png");
+  background-size: cover;
+}
+#oc{
+  background-image: url("https://olopez2019crn.github.io/M08/s2m8uf0104_lopez/img/homero.png");
+  background-size: cover;
+}
+#ar{
+  background-image: url("https://mmunozp2019crn.github.io/M08/s2m8uf104_munoz/img/logo.jpg");
+  background-size: cover;
+}
+
+#sabias {
+  height: 192px;
+}
+#idiomas{
+  height: 56px;
+}
+
+#side h3 {
+  text-indent: 30px;
+  background-image: url("../img/lateral.png");
+  background-repeat: no-repeat;
+  background-position: 0 0px;
+  height: 24px;
+}
+
+#fotos h3 {
+  background-position: 0 -24px;
+}
+
+#amistad h3 {
+  background-position: 0 -48px;
+}
+
+#sabias h3 {
+  background-position: 0 -72px;
+}
+}
+
+/*------------------------------Version Mobils------------------------------*/
+
+@media only screen and (max-width: 959px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #e9ebed;
+    font-family: 'Helvetica';
+    overflow-x: hidden;
+  }
+
+  #barra {
+  visibility: hidden;
+  }
+
+  #Contenidor {
+
+  }
+  #cap {
+    height: 254px;
+    background-image: url("../img/portada.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  #cap img {
+    margin: 0;
+    padding: 0;
+    margin-top: 173px;
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    border: solid white 4px;
+  }
+
+  #cap h2{
+    width: 100%;
+    font-size: 28px;
+    font-weight:  200;
+    color: red;
+    position: absolute;
+    top: 320px;
+
+  }
+
+  #cap #menu{
+    visibility: hidden;
+  }
+  #menu li{
+
+  }
+   #principal {
+
+   }
+
+   #side {
+
+  }
+
+  .post{
+    float: none;
+    width: 100%;
+    background-color: red;
+  }
+  .post ul{
+
+  }
+  .post li{
+      display: inline-block;
+  }
+
+  .post img{
+
+  }
+  .info {
+
+  }
+
+  .post, .info {
+
+  }
+
+  #pensando {
+    width: 100%;
+    padding: 12px;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    left: -12px;
+  }
+
+  #miniperfil{
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    border-radius: 50%;
+  }
+
+  #textpensando {
+      width: 100%;
+      height: 100px;
+      padding-left: 100px;
+  }
+  #pensando ul{
+
+  }
+
+  #arriba li{
+
+  }
+  #pensando li{
+
+  }
+
+  #btm ul{
+
+  }
+  #btm li{
+
+  }
+
+  .crear, .fyv, .directo, .importante {
+
+  }
+
+  .crear {
+
+  }
+  .fyv {
+
+  }
+  .directo {
+
+  }
+  .importante {
+
+  }
+
+  #presentacion {
+    position: absolute;
+
+  }
+  #presentacion p {
+
+  }
+
+  .estudios, .domicilio, .ubicacion, .estado {
+    list-style-type: none;
+  }
+  .estudios {
+    list-style-image: url("../img/icn/icones_estudis.png");
+  }
+
+  .domicilio {
+    list-style-image: url("../img/icn/icones_domicili.png");
+  }
+
+  .ubicacion {
+    list-style-image: url("../img/icn/icones_ubicacio.png");
+  }
+
+  .estado {
+    list-style-image: url("../img/icn/icones_sentimental.png");
+  }
+
+  #fotos {
+    height: 153px;
+    background-color: orange;
+    display: none;
+  }
+
+  .foto {
+    height: 95px;
+    width: 95px;
+    margin: 2px;
+    float: left;
+  }
+
+  #amistad {
+    display: none;
+  }
+
+  #amistad ul{
+    list-style-type: none;
+    padding: 0;
+  }
+
+  #amistad li{
+    color: white;
+    position: relative;
+    display: inline-block;
+
+  }
+  #amistad li a:link{
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  #mm{
+    background-image: url("https://mmunozp2019crn.github.io/M08/s2m8uf104_munoz/img/logo.jpg");
+    background-size: cover;
+  }
+  #lg{
+    background-image: url("https://lgarcia2019crn.github.io/M08/s2m8uf104_facebook/img/perfil.jpg");
+    background-size: cover;
+  }
+  #ag{
+    background-image: url("https://agarcia2019crn.github.io/M08/s2m8uf104_garciaa/img/perfil.jpg");
+    background-size: cover;
+  }
+  #np{
+    background-image: url("https://iprados2019crn.github.io/M08/s2m8uf104_iprados/img/fotoperfil.jpg");
+    background-size: cover;
+  }
+  #yr{
+    background-image: url("https://yromero2019crn.github.io/M08/UF1/s2m8uf104_facebook/img/perfil1.jpg");
+    background-size: cover;
+  }
+  #sp{
+    background-image: url("https://sperez2019crn.github.io/M08/s2m8uf104_sperez/img/fotoperfil.jpg");
+    background-size: cover;
+  }
+  #op{
+    background-image: url("https://oparicio2019crn.github.io/M08/UF1/s2m8uf104_oparicio/img/perfil.png");
+    background-size: cover;
+  }
+  #oc{
+    background-image: url("https://olopez2019crn.github.io/M08/s2m8uf0104_lopez/img/homero.png");
+    background-size: cover;
+  }
+  #ar{
+    background-image: url("https://mmunozp2019crn.github.io/M08/s2m8uf104_munoz/img/logo.jpg");
+    background-size: cover;
+  }
+
+  #sabias {
+    height: 192px;
+    display: none;
+  }
+  #idiomas{
+    height: 56px;
+  }
+
+  #side h3 {
+    text-indent: 30px;
+    background-image: url("../img/lateral.png");
+    background-repeat: no-repeat;
+    background-position: 0 0px;
+    height: 24px;
+  }
+
+  #fotos h3 {
+    background-position: 0 -24px;
+  }
+
+  #amistad h3 {
+    background-position: 0 -48px;
+  }
+
+  #sabias h3 {
+    background-position: 0 -72px;
+  }
+}

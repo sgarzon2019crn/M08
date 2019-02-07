@@ -1,3 +1,7 @@
+/*Version Escriptori*/
+
+@media only screen and (min-width: 960px) {
+
 body {
   margin: 0;
   padding: 0;
@@ -24,7 +28,7 @@ body {
 #cap {
   width: 852px;
   height: 357px;
-  background-color: #ffffff;
+  background-color: #FFF;
   background-image: url("../img/portada.jpg");
   background-repeat: no-repeat;
   background-size:852px 316px;
@@ -65,7 +69,7 @@ body {
 
   height: 39px;
   color: #5066ae;
-  background-color: #fff;
+  background-color: #FFF;
   display: inline-block;
   list-style-type: none;
   padding: 0 15px;
@@ -95,10 +99,21 @@ body {
 .post{
   width: 492px;
   padding: 12px;
-  height: 300px;
   background-color: white;
 }
+.post ul{
+  background-color: red;
+}
+.post li{
+  display: inline-block;
+  margin-right: 10px;
+}
 
+.post img{
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
 .info {
   width: 299px;
   padding: 12px;
@@ -113,12 +128,86 @@ body {
 }
 
 #pensando {
-  width: 492px;
+  width: 514px;
   height: 169px;
-  background-color: red;
   margin-bottom: 10px;
+  padding: 0;
 }
 
+#miniperfil{
+  position: absolute;
+  float: left;
+  padding-left: 4px;
+  margin-top: 24px;
+  z-index: 1000;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+#textpensando {
+  width: 470px;
+  height: 71px;
+  margin: 0;
+  padding: 0;
+  padding-left: 40px;
+  font-size: 14px;
+}
+#pensando ul{
+  background-color: #DDD;
+  height: 48px;
+  line-height: 50px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border-bottom: solid 1px #DDD;
+  border-top: solid 1px #DDD;
+}
+
+#arriba li{
+  border-right: solid 1px #FFF;
+}
+#pensando li{
+  font-size: 12px;
+  display: inline-block;
+}
+
+#btm ul{
+  padding: 0;
+  margin: 0;
+  p
+}
+#btm li{
+  margin: 0;
+  padding: 0;
+  width: 90px;
+  height: 30px;
+  text-align: center;
+  margin-right: 10px;
+  background-color: #FFF;
+  height: 30px;
+  border-radius: 20%;
+}
+
+.crear, .fyv, .directo, .importante {
+  list-style-type: none;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-position: 6px;
+}
+
+.crear {
+  background-image: url("../img/icn/icones_estudis.png");
+}
+.fyv {
+  background-image: url("../img/icn/icones_estudis.png");
+}
+.directo {
+  background-image: url("../img/icn/icones_estudis.png");
+}
+.importante {
+  background-image: url("../img/icn/icones_estudis.png");
+}
 
 #presentacion {
   font-size: 12px;
@@ -172,9 +261,16 @@ body {
   list-style-type: none;
   padding: 0;
 }
-#amistad a:link{
-  text-decoration: none;
+
+#amistad li{
   color: white;
+  position: relative;
+  display: inline-block;
+
+}
+#amistad li a:link{
+  text-decoration: none;
+  display: inline-block;
 }
 
 #mm{
@@ -239,4 +335,245 @@ body {
 
 #sabias h3 {
   background-position: 0 -72px;
+}
+}
+
+/*------------------------------Version Mobils------------------------------*/
+
+@media only screen and (max-width: 959px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #e9ebed;
+    font-family: 'Helvetica';
+  }
+
+  #barra {
+  visibility: hidden;
+  }
+
+  #Contenidor {
+
+  }
+  #cap {
+    height: 254px;
+    background-image: url("../img/portada.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  #cap img {
+    margin: 0;
+    padding: 0;
+    margin-top: 173px;
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    border: solid white 4px;
+  }
+
+  #cap h2{
+    width: 100%;
+    font-size: 28px;
+    font-weight:  200;
+    color: red;
+    position: absolute;
+    top: 320px;
+
+  }
+
+  #cap #menu{
+    visibility: hidden;
+  }
+  #menu li{
+
+  }
+   #principal {
+
+   }
+
+   #side {
+
+  }
+
+  .post{
+
+  }
+  .post ul{
+
+  }
+  .post li{
+
+  }
+
+  .post img{
+
+  }
+  .info {
+
+  }
+
+  .post, .info {
+
+  }
+
+  #pensando {
+
+  }
+
+  #miniperfil{
+
+  }
+
+  #textpensando {
+
+  }
+  #pensando ul{
+
+  }
+
+  #arriba li{
+
+  }
+  #pensando li{
+
+  }
+
+  #btm ul{
+
+  }
+  #btm li{
+
+  }
+
+  .crear, .fyv, .directo, .importante {
+
+  }
+
+  .crear {
+
+  }
+  .fyv {
+
+  }
+  .directo {
+
+  }
+  .importante {
+
+  }
+
+  #presentacion {
+
+  }
+  #presentacion p {
+
+  }
+
+  .estudios, .domicilio, .ubicacion, .estado {
+    list-style-type: none;
+  }
+  .estudios {
+    list-style-image: url("../img/icn/icones_estudis.png");
+  }
+
+  .domicilio {
+    list-style-image: url("../img/icn/icones_domicili.png");
+  }
+
+  .ubicacion {
+    list-style-image: url("../img/icn/icones_ubicacio.png");
+  }
+
+  .estado {
+    list-style-image: url("../img/icn/icones_sentimental.png");
+  }
+
+  #fotos {
+
+  }
+
+  .foto {
+
+  }
+
+  #amistad {
+
+  }
+
+  #amistad ul{
+
+  }
+
+  #amistad li{
+
+
+  }
+  #amistad li a:link{
+
+  }
+
+  #mm{
+    background-image: url("https://mmunozp2019crn.github.io/M08/s2m8uf104_munoz/img/logo.jpg");
+    background-size: cover;
+  }
+  #lg{
+    background-image: url("https://lgarcia2019crn.github.io/M08/s2m8uf104_facebook/img/perfil.jpg");
+    background-size: cover;
+  }
+  #ag{
+    background-image: url("https://agarcia2019crn.github.io/M08/s2m8uf104_garciaa/img/perfil.jpg");
+    background-size: cover;
+  }
+  #np{
+    background-image: url("https://iprados2019crn.github.io/M08/s2m8uf104_iprados/img/fotoperfil.jpg");
+    background-size: cover;
+  }
+  #yr{
+    background-image: url("https://yromero2019crn.github.io/M08/UF1/s2m8uf104_facebook/img/perfil1.jpg");
+    background-size: cover;
+  }
+  #sp{
+    background-image: url("https://sperez2019crn.github.io/M08/s2m8uf104_sperez/img/fotoperfil.jpg");
+    background-size: cover;
+  }
+  #op{
+    background-image: url("https://oparicio2019crn.github.io/M08/UF1/s2m8uf104_oparicio/img/perfil.png");
+    background-size: cover;
+  }
+  #oc{
+    background-image: url("https://olopez2019crn.github.io/M08/s2m8uf0104_lopez/img/homero.png");
+    background-size: cover;
+  }
+  #ar{
+    background-image: url("https://mmunozp2019crn.github.io/M08/s2m8uf104_munoz/img/logo.jpg");
+    background-size: cover;
+  }
+
+  #sabias {
+
+  }
+  #idiomas{
+
+  }
+
+  #side h3 {
+
+  }
+
+  #fotos h3 {
+
+  }
+
+  #amistad h3 {
+
+  }
+
+  #sabias h3 {
+
+  }
 }

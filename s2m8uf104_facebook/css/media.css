@@ -1,0 +1,16 @@
+/*Version Escriptori*/
+
+@media (min-width: 960px); {
+  body{
+    background-color: red;
+  }
+}
+
+
+/*Version Mobils*/
+
+@media (min-width: 959px); {
+  body{
+    background-color: lightblue;
+  }
+}
